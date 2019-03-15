@@ -8,6 +8,7 @@ import { TopsellerPage } from '../topseller/topseller';
 
 
 
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -62,6 +63,10 @@ export class HomePage {
 
   goToPageCategory(){
     this.navCtrl.push(BookCategoryPage);
+  }
+
+  goBack(){
+    this.navCtrl.pop();
   }
 
   

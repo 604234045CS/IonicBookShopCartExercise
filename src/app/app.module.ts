@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BookCategoryPage } from '../pages/book-category/book-category';
 import { CartPage } from '../pages/cart/cart';
 import { TopsellerPage } from '../pages/topseller/topseller';
+import { LogInPage } from '../pages/log-in/log-in';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TopsellerPage } from '../pages/topseller/topseller';
     BookDetailPage,
     BookCategoryPage,
     CartPage,
-    TopsellerPage
+    TopsellerPage,
+    LogInPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { TopsellerPage } from '../pages/topseller/topseller';
     BookDetailPage,
     BookCategoryPage,
     CartPage,
-    TopsellerPage
+    TopsellerPage,
+    LogInPage
   ],
   providers: [
     StatusBar,
